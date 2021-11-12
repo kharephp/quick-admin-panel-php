@@ -2,13 +2,13 @@
 // exit();
 // error_reporting(0);
 $siteTitle='Club Of Rome Admin Panel';
-define('SITE_URL','https://demon.mailxing.in/nath/');
-define('SITE_URL_ADMIN','https://demon.mailxing.in/nath/admin/');
+define('SITE_URL','http://localhost/admin-panel/quick-admin-panel-php/');
+define('SITE_URL_ADMIN','http://localhost/admin-panel/quick-admin-panel-php/admin/');
 session_start();
 function getPDOObject() {
-$dsn = 'mysql:host=localhost;dbname=nath;charset=utf8mb4';
-$user = 'demon';
-$pass = 'demon@123';
+$dsn = 'mysql:host=localhost;dbname=admin_panel;charset=utf8mb4';
+$user = 'root';
+$pass = '';
 $pdo = new PDO($dsn, $user, $pass);
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);

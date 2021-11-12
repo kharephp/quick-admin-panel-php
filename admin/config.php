@@ -1,10 +1,10 @@
 <?php
 date_default_timezone_set('Asia/Kolkata');
-$siteTitle='श्री नाथ सेवा ट्रस्ट Panel';
-$poweredbyname='Nimbus Adcom ';
+$siteTitle='Company Name Admin Panel';
+$poweredbyname='KharePHP';
 $poweredbylink='#';
-$copyrightname='श्री नाथ सेवा ट्रस्ट';
+$copyrightname='Company Name';
 $copyrightlink='../';
-$logotitle='श्री नाथ सेवा ट्रस्ट';
+$logotitle='Company Name';
 
 // $no_visible_elements=false;
